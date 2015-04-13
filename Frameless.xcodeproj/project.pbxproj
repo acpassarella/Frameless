@@ -460,7 +460,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5812bcbe-0930-4379-9004-eace5b846006";
 				SWIFT_OBJC_BRIDGING_HEADER = "Frameless/Frameless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,7 +478,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5812bcbe-0930-4379-9004-eace5b846006";
 				SWIFT_OBJC_BRIDGING_HEADER = "Frameless/Frameless-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -499,6 +499,7 @@
 				INFOPLIST_FILE = FramelessTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5812bcbe-0930-4379-9004-eace5b846006";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frameless.app/Frameless";
 			};
 			name = Debug;
@@ -514,6 +515,7 @@
 				INFOPLIST_FILE = FramelessTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5812bcbe-0930-4379-9004-eace5b846006";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frameless.app/Frameless";
 			};
 			name = Release;
