@@ -453,7 +453,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAC237240666B2261B5088CD /* Pods-Frameless.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -472,7 +471,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DC7091992089D05BD351118 /* Pods-Frameless.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
