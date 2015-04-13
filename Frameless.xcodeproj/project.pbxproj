@@ -238,7 +238,7 @@
 				TargetAttributes = {
 					0DA5BB1819FAD10F00B2FDD1 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = F725AN38JF;
+						DevelopmentTeam = 7K9J74Z95P;
 					};
 					0DA5BB3019FAD10F00B2FDD1 = {
 						CreatedOnToolsVersion = 6.1;
@@ -455,13 +455,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jonas Treub (2N4MR6X448)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jonas Treub (2N4MR6X448)";
 				INFOPLIST_FILE = Frameless/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c8507ecb-1334-42a8-8552-f37d34ca6fdf";
 				SWIFT_OBJC_BRIDGING_HEADER = "Frameless/Frameless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,13 +474,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Frameless/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c8507ecb-1334-42a8-8552-f37d34ca6fdf";
 				SWIFT_OBJC_BRIDGING_HEADER = "Frameless/Frameless-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,6 +489,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jonas Treub (2N4MR6X448)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -501,6 +502,7 @@
 				INFOPLIST_FILE = FramelessTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8507ecb-1334-42a8-8552-f37d34ca6fdf";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frameless.app/Frameless";
 			};
 			name = Debug;
@@ -516,6 +518,7 @@
 				INFOPLIST_FILE = FramelessTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8507ecb-1334-42a8-8552-f37d34ca6fdf";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frameless.app/Frameless";
 			};
 			name = Release;
